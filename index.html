@@ -4,55 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloudStore</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">CloudStore</div>
+        <h1>CloudStore</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#collection">Collection</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Membership</a></li>
             </ul>
         </nav>
     </header>
     
-    <section id="home" class="banner">
-        <h1>Discover Your Style</h1>
-        <p>Trendy and comfortable clothing just for you.</p>
-        <button onclick="exploreCollection()">Explore Now</button>
+    <section class="bestsellers">
+        <h2>Soulful Bestsellers</h2>
+        <div class="product-list" id="bestsellers"></div>
+    </section>
+
+    <section class="categories">
+        <h2>Categories</h2>
+        <div class="category-list" id="categories"></div>
+    </section>
+
+    <section class="themes">
+        <h2>Shop by Themes</h2>
+        <div class="theme-list" id="themes"></div>
     </section>
     
-    <section id="collection" class="products">
-        <h2>Our Collection</h2>
-        <div class="filters">
-            <label for="category">Filter by Category:</label>
-            <select id="category" onchange="filterProducts()">
-                <option value="all">All</option>
-                <option value="tops">Tops</option>
-                <option value="bottoms">Bottoms</option>
-                <option value="accessories">Accessories</option>
-            </select>
-        </div>
-        <div class="product-list">
-            
-        </div>
+    <section class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <div class="info-cards" id="info"></div>
     </section>
-    
-    <section id="cart" class="cart-section">
-        <h2>Shopping Cart</h2>
-        <div class="cart-items">
-        </div>
-        <button onclick="checkout()">Checkout</button>
+
+    <section class="membership">
+        <h2>Membership Perks</h2>
+        <div class="membership-details" id="membership"></div>
     </section>
-    
+
     <footer>
-        <p>&copy; 2025 CloudStore. All Rights Reserved.</p>
+        <p>Homegrown Indian Brand | Over 6 Million Happy Customers</p>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
