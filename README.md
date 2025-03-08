@@ -1,8 +1,8 @@
-Trendy Apparel Store
+Cloudstore
 
 Overview
 
-Trendy Apparel Store is a stylish and user-friendly e-commerce website for fashion products. It features a dynamic product catalog, filtering options, a shopping cart, and a checkout system.
+CloudStore is a stylish and user-friendly e-commerce website for fashion products. It features a dynamic product catalog, filtering options, a shopping cart, and a checkout system.
 
 Features
 
@@ -30,5 +30,5 @@ View cart and proceed to checkout.
 
 Author
 
-Developed by [Your Name]
+Developed by Abhishek Tiwary
 
